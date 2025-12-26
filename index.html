@@ -79,7 +79,51 @@
       padding: 25px;
       margin-top: 40px;
     }
+      /* WhatsApp Button */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      padding: 15px 18px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    .whatsapp-btn:hover {opacity: 0.9;}
+
+    /* Contact Form */
+    form {
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      background: #ff9900;
+      color: #232f3e;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {opacity: 0.9;}
   </style>
+  <!-- SEO Meta -->
+  <meta name="description" content="Saba Afghan - Amazon Wholesale Business Information and Contact" />
+  <meta name="keywords" content="Amazon Wholesale, Saba Afghan, Online Business" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/888/888848.png" />
 </head>
 <body>
 
@@ -124,6 +168,19 @@
     <p><strong>Email:</strong> khaliloafghan123@gmail.com</p>
   </div>
 </section>
+
+<section id="form">
+  <h2>Send Me a Message</h2>
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact" />
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<a class="whatsapp-btn" href="https://wa.me/93765576751" target="_blank">Chat on WhatsApp</a>
 
 <footer>
   <p>© 2025 Saba Afghan | Amazon Wholesale Business</p>
