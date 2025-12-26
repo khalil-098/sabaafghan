@@ -4,74 +4,107 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Saba Afghan | Amazon Wholesale</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Saba Afghan – Amazon Wholesale Business. Learn how wholesale works and contact me directly." />
+  <meta name="keywords" content="Amazon Wholesale, Saba Afghan, Amazon Business, Online Wholesale" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/888/888848.png" />
+
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
       color: #333;
     }
+
     header {
       background: linear-gradient(135deg, #232f3e, #37475a);
       color: #fff;
-      padding: 50px 20px;
+      padding: 80px 20px;
       text-align: center;
     }
-    header h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
+
+    header h1 {font-size: 46px; margin-bottom: 15px;}
+    header p {font-size: 20px; max-width: 700px; margin: auto;}
+
+    .cta {
+      margin-top: 30px;
     }
-    header p {
-      font-size: 18px;
-      opacity: 0.9;
+
+    .cta a {
+      background: #ff9900;
+      color: #232f3e;
+      padding: 14px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+      display: inline-block;
     }
+
     nav {
       background: #ff9900;
       padding: 15px;
       text-align: center;
     }
+
     nav a {
       color: #232f3e;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
-      font-size: 16px;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
+
     section {
-      padding: 50px;
       background: #fff;
-      margin: 30px auto;
+      margin: 40px auto;
+      padding: 50px;
       max-width: 1000px;
-      border-radius: 15px;
+      border-radius: 16px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     }
-    h2 {
-      color: #232f3e;
-      margin-bottom: 20px;
-      font-size: 28px;
+
+    h2 {color: #232f3e; font-size: 32px; margin-bottom: 20px;}
+
+    ul li {margin-bottom: 10px;}
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
     }
-    ul li {
-      margin-bottom: 10px;
-    }
-    .highlight {
-      color: #ff9900;
-      font-weight: bold;
-    }
-    .contact-box {
-      background: linear-gradient(135deg, #232f3e, #37475a);
-      color: #fff;
-      padding: 30px;
-      border-radius: 15px;
+
+    .card {
+      background: #f4f4f4;
+      padding: 25px;
+      border-radius: 12px;
       text-align: center;
     }
-    .contact-box p {
-      margin: 10px 0;
-      font-size: 18px;
+
+    .testimonials {
+      font-style: italic;
     }
+
+    form {max-width: 500px; margin: auto;}
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background: #ff9900;
+      color: #232f3e;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
     footer {
       background: #232f3e;
       color: #fff;
@@ -79,7 +112,7 @@
       padding: 25px;
       margin-top: 40px;
     }
-      /* WhatsApp Button */
+
     .whatsapp-btn {
       position: fixed;
       bottom: 20px;
@@ -88,88 +121,62 @@
       color: #fff;
       padding: 15px 18px;
       border-radius: 50px;
-      font-weight: bold;
       text-decoration: none;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-      z-index: 1000;
-    }
-    .whatsapp-btn:hover {opacity: 0.9;}
-
-    /* Contact Form */
-    form {
-      max-width: 500px;
-      margin: auto;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      font-size: 16px;
-    }
-    button {
-      background: #ff9900;
-      color: #232f3e;
-      padding: 12px 25px;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
       font-weight: bold;
-      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     }
-    button:hover {opacity: 0.9;}
   </style>
-  <!-- SEO Meta -->
-  <meta name="description" content="Saba Afghan - Amazon Wholesale Business Information and Contact" />
-  <meta name="keywords" content="Amazon Wholesale, Saba Afghan, Online Business" />
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/888/888848.png" />
 </head>
 <body>
 
 <header>
   <h1>Saba Afghan</h1>
-  <p>Professional Amazon Wholesale Business Platform</p>
+  <p>I help people understand and start the Amazon Wholesale business using proven and professional methods.</p>
+  <div class="cta">
+    <a href="#contact">Contact Me</a>
+    <a href="https://wa.me/93765576751" target="_blank">WhatsApp</a>
+  </div>
 </header>
 
 <nav>
-  <a href="#home">Home</a>
   <a href="#about">About</a>
   <a href="#wholesale">Wholesale</a>
+  <a href="#why">Why This Model</a>
+  <a href="#testimonials">Trust</a>
   <a href="#contact">Contact</a>
 </nav>
 
-<section id="home">
-  <h2>Welcome</h2>
-  <p>Welcome to my <span class="highlight">live-style professional website</span>. This platform is dedicated to sharing clear, practical, and real-world information about the Amazon Wholesale business model.</p>
-</section>
-
 <section id="about">
   <h2>About Me</h2>
-  <p>My name is <strong>Saba Afghan</strong>. I focus on building a professional online presence in the field of <span class="highlight">Amazon Wholesale</span>. My mission is to grow step by step, work with trusted suppliers, and help others understand how wholesale selling works on Amazon.</p>
+  <p>My name is <strong>Saba Afghan</strong>. I am focused on building a professional presence in Amazon Wholesale. My goal is to grow step by step, work only with trusted suppliers, and share clear and honest information with beginners who want to enter online business.</p>
 </section>
 
 <section id="wholesale">
-  <h2>Amazon Wholesale Business</h2>
-  <p>Amazon Wholesale is one of the most reliable and long-term online business models. It is based on selling already successful branded products.</p>
-  <ul>
-    <li>Purchase products directly from brands or authorized distributors</li>
-    <li>Sell products with existing demand and proven sales history</li>
-    <li>Build long-term supplier relationships</li>
-    <li>Scale the business with lower risk</li>
-  </ul>
-  <p>This model is ideal for sellers who want <span class="highlight">stability, growth, and professionalism</span>.</p>
-</section>
-
-<section id="contact">
-  <div class="contact-box">
-    <h2>Contact Me</h2>
-    <p><strong>Phone:</strong> 0765576751</p>
-    <p><strong>Email:</strong> khaliloafghan123@gmail.com</p>
+  <h2>How Amazon Wholesale Works</h2>
+  <div class="cards">
+    <div class="card">Buy branded products directly from authorized distributors.</div>
+    <div class="card">List products on Amazon with existing demand.</div>
+    <div class="card">Scale the business with low risk and stable sales.</div>
   </div>
 </section>
 
-<section id="form">
+<section id="why">
+  <h2>Why Amazon Wholesale?</h2>
+  <ul>
+    <li>Lower risk compared to private label</li>
+    <li>No need to create your own product</li>
+    <li>Proven demand and stable growth</li>
+    <li>Long-term and professional business model</li>
+  </ul>
+</section>
+
+<section id="testimonials" class="testimonials">
+  <h2>Why People Trust This Model</h2>
+  <p>“Amazon Wholesale is one of the safest ways to start selling online with real products and real demand.”</p>
+  <p>“This model focuses on consistency and long-term growth instead of shortcuts.”</p>
+</section>
+
+<section id="contact">
   <h2>Send Me a Message</h2>
   <form name="contact" method="POST" data-netlify="true">
     <input type="hidden" name="form-name" value="contact" />
@@ -180,7 +187,7 @@
   </form>
 </section>
 
-<a class="whatsapp-btn" href="https://wa.me/93765576751" target="_blank">Chat on WhatsApp</a>
+<a class="whatsapp-btn" href="https://wa.me/93765576751" target="_blank">WhatsApp</a>
 
 <footer>
   <p>© 2025 Saba Afghan | Amazon Wholesale Business</p>
